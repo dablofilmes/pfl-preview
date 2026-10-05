@@ -34,8 +34,7 @@ O **pfl-preview** resolve essa limitação trazendo a função clássica de **PF
 | Sistema Operacional | Suportado | Notas |
 | :--- | :---: | :--- |
 | **Windows 10/11** (64-bit) | ✅ | Suporte exclusivo no momento |
-| **macOS** | ❌ | Não suportado na versão atual |
-| **Linux** | ❌ | Não suportado na versão atual |
+
 
 > **Requisito de Versão:** Testado e otimizado para **OBS Studio 30.0+** em sistemas 64-bit.
 
