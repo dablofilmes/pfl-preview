@@ -1,10 +1,5 @@
 # 🎧 PFL Preview — Monitoring Panel for OBS Studio
 
-[![GitHub release](https://img.shields.io/github/v/release/usuario/pfl-preview?style=flat-square)](https://github.com/usuario/pfl-preview/releases)
-[![OBS Studio](https://img.shields.io/badge/OBS%20Studio-30.0%2B-blue?style=flat-square)](https://obsproject.com/)
-[![OS Windows](https://img.shields.io/badge/OS-Windows-0078D6?style=flat-square&logo=windows)](https://microsoft.com/windows)
-[![License](https://img.shields.io/github/license/usuario/pfl-preview?style=flat-square)](LICENSE)
-
 **PFL Preview** (Pre-Fader Listen) é um painel de monitoramento de áudio dedicado para o **Preview** do OBS Studio (Modo Estúdio / Studio Mode). 
 
 Ele permite checar e ouvir qualquer fonte de áudio presente na cena do Preview (vídeos, mídias gravadas, áudio ao vivo, etc.) **sem enviar o áudio para o PGM (Program / Ar)**. Assim, você garante que o som está chegando no nível correto e funcionando perfeitamente antes de colocar a cena ao ar.
@@ -42,7 +37,7 @@ O **pfl-preview** resolve essa limitação trazendo a função clássica de **PF
 
 ## 📦 Como Instalar (Windows)
 
-1. Acesse a seção de **[Releases](https://github.com/usuario/pfl-preview/releases)** e baixe a versão mais recente em formato `.zip`.
+1. Acesse a seção de **[Releases](https://github.com/dablofilmes/pfl-preview/releases)** e baixe a versão mais recente em formato `.zip`.
 2. Extraia o conteúdo do arquivo `.zip`.
 3. Copie as pastas extraídas (`obs-plugins` e `data`) e cole na pasta raiz do seu OBS Studio:
    - Caminho padrão: `C:\Program Files\obs-studio\`
