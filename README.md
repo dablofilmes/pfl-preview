@@ -65,5 +65,5 @@ Este projeto está licenciado sob a licença [GPL-2.0](LICENSE) — consulte o a
 
 ## 🤝 Contribuições & Suporte
 
-- Encontrou um bug ou tem uma sugestão de nova funcionalidade? Abra uma **[Issue](https://github.com/usuario/pfl-preview/issues)**.
+- Encontrou um bug ou tem uma sugestão de nova funcionalidade? Abra uma **[Issue](https://github.com/dablofilmes/pfl-preview/issues)**.
 - Se o **pfl-preview** te ajudou nas suas transmissões, considere deixar uma ⭐️ no repositório!
