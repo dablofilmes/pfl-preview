@@ -1,59 +1,69 @@
-# OBS Plugin Template
+# 🎧 PFL Preview — Monitoring Panel for OBS Studio
 
-## Introduction
+**PFL Preview** (Pre-Fader Listen) é um painel de monitoramento de áudio dedicado para o **Preview** do OBS Studio (Modo Estúdio / Studio Mode). 
 
-The plugin template is meant to be used as a starting point for OBS Studio plugin development. It includes:
+Ele permite checar e ouvir qualquer fonte de áudio presente na cena do Preview (vídeos, mídias gravadas, áudio ao vivo, etc.) **sem enviar o áudio para o PGM (Program / Ar)**. Assim, você garante que o som está chegando no nível correto e funcionando perfeitamente antes de colocar a cena ao ar.
 
-* Boilerplate plugin source code
-* A CMake project file
-* GitHub Actions workflows and repository actions
+---
 
-## Supported Build Environments
+## ✨ Funcionalidades
 
-| Platform  | Tool   |
-|-----------|--------|
-| Windows   | Visual Studio 17 2022 |
-| macOS     | XCode 16.0 |
-| Windows, macOS  | CMake 3.30.5 |
-| Ubuntu 24.04 | CMake 3.28.3 |
-| Ubuntu 24.04 | `ninja-build` |
-| Ubuntu 24.04 | `pkg-config`
-| Ubuntu 24.04 | `build-essential` |
+- 🔊 **Monitoramento Pré-PGM:** Ouça o áudio da cena do Preview de forma 100% isolada, sem interferir no áudio da transmissão ao vivo.
+- 🎬 **Suporte Completo a Fontes:** Funciona com vídeos, arquivos de áudio, entradas de microfone e mídias ao vivo.
+- 🎛 **Seleção de Fonte de Áudio:** Escolha exatamente qual fonte de áudio presente na cena do Preview deseja isolar para escutar.
+- 🎧 **Roteamento de Áudio:** Direciona o sinal para o dispositivo de monitoramento definido nas configurações globais de áudio do OBS.
+- 📌 **Dock Integrado:** Painel acoplável diretamente na interface do OBS Studio.
 
-## Quick Start
+---
 
-An absolute bare-bones [Quick Start Guide](https://github.com/obsproject/obs-plugintemplate/wiki/Quick-Start-Guide) is available in the wiki.
+## 🎯 Por que usar o PFL Preview?
 
-## Documentation
+No Modo Estúdio do OBS, ao carregar uma nova cena na janela de Preview contendo mídias ou entradas de áudio, não há uma forma nativa de ouvir esse som antes de realizar a transição para o PGM. 
 
-All documentation can be found in the [Plugin Template Wiki](https://github.com/obsproject/obs-plugintemplate/wiki).
+O **pfl-preview** resolve essa limitação trazendo a função clássica de **PFL (Pre-Fader Listen / Solo)** das mesas de som profissionais diretamente para o OBS.
 
-Suggested reading to get up and running:
+---
 
-* [Getting started](https://github.com/obsproject/obs-plugintemplate/wiki/Getting-Started)
-* [Build system requirements](https://github.com/obsproject/obs-plugintemplate/wiki/Build-System-Requirements)
-* [Build system options](https://github.com/obsproject/obs-plugintemplate/wiki/CMake-Build-System-Options)
+## 🖥️ Compatibilidade
 
-## GitHub Actions & CI
+| Sistema Operacional | Suportado | Notas |
+| :--- | :---: | :--- |
+| **Windows 10/11** (64-bit) | ✅ | Suporte exclusivo no momento |
 
-Default GitHub Actions workflows are available for the following repository actions:
 
-* `push`: Run for commits or tags pushed to `master` or `main` branches.
-* `pr-pull`: Run when a Pull Request has been pushed or synchronized.
-* `dispatch`: Run when triggered by the workflow dispatch in GitHub's user interface.
-* `build-project`: Builds the actual project and is triggered by other workflows.
-* `check-format`: Checks CMake and plugin source code formatting and is triggered by other workflows.
+> **Requisito de Versão:** Testado e otimizado para **OBS Studio 31.0+** em sistemas 64-bit.
 
-The workflows make use of GitHub repository actions (contained in `.github/actions`) and build scripts (contained in `.github/scripts`) which are not needed for local development, but might need to be adjusted if additional/different steps are required to build the plugin.
+---
 
-### Retrieving build artifacts
+## 📦 Como Instalar (Windows)
 
-Successful builds on GitHub Actions will produce build artifacts that can be downloaded for testing. These artifacts are commonly simple archives and will not contain package installers or installation programs.
+1. Acesse a seção de **[Releases](https://github.com/dablofilmes/pfl-preview/releases)** e baixe a versão mais recente em formato `.zip`.
+2. Extraia o conteúdo do arquivo `.zip`.
+3. Copie as pastas extraídas (`obs-plugins` e `data`) e cole na pasta raiz do seu OBS Studio:
+   - Caminho padrão: `C:\Program Files\obs-studio\`
+4. Se solicitado pelo Windows, confirme a mesclagem das pastas.
+5. Reinicie o OBS Studio.
 
-### Building a Release
+---
 
-To create a release, an appropriately named tag needs to be pushed to the `main`/`master` branch using semantic versioning (e.g., `12.3.4`, `23.4.5-beta2`). A draft release will be created on the associated repository with generated installer packages or installation programs attached as release artifacts.
+## 🚀 Como Usar
 
-## Signing and Notarizing on macOS
+1. Abra o OBS Studio e ative o **Modo Estúdio** (Studio Mode).
+2. Vá ao menu superior do OBS: **Docks** ➔ **PFL Preview**.
+3. Encaixe o painel na interface do OBS onde for mais conveniente.
+4. Selecione a cena desejada na janela de **Preview**.
+5. No painel do **PFL Preview**, selecione a fonte de áudio que deseja monitorar.
+6. O áudio será reproduzido no seu dispositivo de monitoramento configurado no OBS, sem ir para a transmissão (PGM).
 
-Basic concepts of codesigning and notarization on macOS are explained in the correspodning [Wiki article](https://github.com/obsproject/obs-plugintemplate/wiki/Codesigning-On-macOS) which has a specific section for the [GitHub Actions setup](https://github.com/obsproject/obs-plugintemplate/wiki/Codesigning-On-macOS#setting-up-code-signing-for-github-actions).
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença [GPL-2.0](LICENSE) — consulte o arquivo de licença para mais detalhes.
+
+---
+
+## 🤝 Contribuições & Suporte
+
+- Encontrou um bug ou tem uma sugestão de nova funcionalidade? Abra uma **[Issue](https://github.com/dablofilmes/pfl-preview/issues)**.
+- Se o **pfl-preview** te ajudou nas suas transmissões, considere deixar uma ⭐️ no repositório!
