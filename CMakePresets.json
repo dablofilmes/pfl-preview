@@ -61,14 +61,15 @@
       "warnings": {"dev": true, "deprecated": true}
     },
     {
-      "name": "windows-ci-x64",
-      "inherits": ["windows-x64"],
-      "displayName": "Windows x64 CI build",
-      "description": "Build for Windows x64 on CI",
-      "cacheVariables": {
-        "CMAKE_COMPILE_WARNING_AS_ERROR": true
-      }
-    },
+  "name": "windows-ci-x64",
+  "inherits": ["windows-x64"],
+  "displayName": "Windows x64 CI build",
+  "description": "Build for Windows x64 on CI",
+  "generator": "Visual Studio 17 2022",
+  "cacheVariables": {
+    "CMAKE_COMPILE_WARNING_AS_ERROR": true
+  }
+},
     {
       "name": "ubuntu-x86_64",
       "displayName": "Ubuntu x86_64",
