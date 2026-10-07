@@ -53,7 +53,7 @@ O **pfl-preview** resolve essa limitação trazendo a função clássica de **PF
 3. Encaixe o painel na interface do OBS onde for mais conveniente.
 4. Selecione a cena desejada na janela de **Preview**.
 5. No painel do **PFL Preview**, selecione a fonte de áudio que deseja monitorar.
-6. O áudio será reproduzido no seu dispositivo de monitoramento configurado no OBS, sem ir para a transmissão (PGM).
+6. O áudio será reproduzido no seu dispositivo de monitoramento configurado nas CONFIGURAÇÕES DE AUDIO no OBS, sem ir para a transmissão (PGM).
 
 ---
 
