@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.794mm" height="7.279mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 53.81 57.65"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.8361mm" height="7.3246mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6.54 7.01"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil1 {fill:silver;fill-rule:nonzero}
-    .fil0 {fill:silver;fill-rule:nonzero;fill-opacity:0.400000}
+    .fil1 {fill:#8C3335;fill-rule:nonzero}
+    .fil0 {fill:#D9DADA;fill-rule:nonzero;fill-opacity:0.400000}
    ]]>
   </style>
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_2762358778784">
-   <path class="fil0" d="M53.81 25.21c0,-9.61 -5,-16.76 -13.45,-21.75 -4.23,-2.31 -8.84,-3.46 -13.45,-3.46 -4.61,0 -9.22,1.15 -13.45,3.46 -8.46,5 -13.45,13.84 -13.45,23.44l0 23.06c0,0 0,7.69 7.69,7.69l3.84 0c2.31,0 3.84,-1.54 3.84,-3.84l0 -15.37c0,-2.31 -1.92,-3.84 -3.84,-3.84 0,0 -3.84,0 -3.84,-3.84l0 -3.84c0,-6.92 3.84,-13.07 9.61,-16.53 5.77,-3.46 13.45,-3.46 19.22,0 5.77,3.46 9.8,8.65 9.8,15.68l7.49 -0.08 0 -0.77z"/>
-   <path class="fil1" d="M30.75 29.98c-1.23,0 -2.31,0.46 -3.23,1.38 -1.84,1.85 -1.84,4.61 0,6.46l6 6 -6 6c-1.84,1.84 -1.84,4.61 0,6.46 1.85,1.84 4.61,1.84 6.46,0l6 -6 6 6c1.84,1.84 4.61,1.84 6.46,0 1.84,-1.84 1.84,-4.61 0,-6.46l-6 -6 6 -6c1.84,-1.85 1.84,-4.61 0,-6.46 -0.92,-0.92 -2,-1.38 -3.23,-1.38 -1.23,0 -2.31,0.46 -3.23,1.38l-6 6 -6 -6c-0.92,-0.92 -2,-1.38 -3.23,-1.38z"/>
-  </g>
+  <path class="fil0" d="M3.27 0c-0.56,0 -1.12,0.14 -1.64,0.42 -1.03,0.61 -1.64,1.68 -1.64,2.85l0 2.8c0,0 0,0.93 0.93,0.93l0.47 0c0.28,0 0.47,-0.19 0.47,-0.47l0 -1.87c0,-0.28 -0.23,-0.47 -0.47,-0.47 0,0 -0.47,0 -0.47,-0.47l0 -0.47c0,-0.84 0.47,-1.59 1.17,-2.01 0.7,-0.42 1.64,-0.42 2.34,0 0.7,0.42 1.17,1.17 1.17,2.01l0 0.47c0,0.47 -0.47,0.47 -0.47,0.47 -0.23,0 -0.47,0.19 -0.47,0.47l0 1.87c0,0.28 0.19,0.47 0.47,0.47l0.47 0c0.93,0 0.93,-0.93 0.93,-0.93l0 -2.8c0,-1.17 -0.61,-2.24 -1.64,-2.85 -0.51,-0.28 -1.07,-0.42 -1.64,-0.42l-0 0z"/>
+  <path class="fil1" d="M2.52 4.47c-0.1,0 -0.19,0.04 -0.26,0.11 -0.15,0.15 -0.15,0.38 0,0.53l0.49 0.49 -0.49 0.49c-0.15,0.15 -0.15,0.38 0,0.53 0.15,0.15 0.38,0.15 0.53,0l0.49 -0.49 0.49 0.49c0.15,0.15 0.38,0.15 0.53,0 0.15,-0.15 0.15,-0.38 0,-0.53l-0.49 -0.49 0.49 -0.49c0.15,-0.15 0.15,-0.38 0,-0.53 -0.08,-0.08 -0.16,-0.11 -0.26,-0.11 -0.1,0 -0.19,0.04 -0.26,0.11l-0.49 0.49 -0.49 -0.49c-0.08,-0.08 -0.16,-0.11 -0.26,-0.11z"/>
  </g>
 </svg>

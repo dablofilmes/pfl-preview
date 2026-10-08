@@ -30,6 +30,7 @@
 #include <QNetworkRequest>
 #include <QVersionNumber>
 #include <QMouseEvent>
+#include <string>
 
 #include <cmath>
 
@@ -936,7 +937,7 @@ footerLayout->setContentsMargins(6, 0, 2, 0);
 footerLayout->setSpacing(0);
 
 auto *info = new QLabel(
-    "v1.3.0 by DABLO",
+    QString("v%1 by DABLO").arg(PLUGIN_VERSION),
     footerFrame
 );
 
@@ -1533,8 +1534,12 @@ void PFLDock::CheckForUpdates()
 
     std::thread([this]() {
 
+std::wstring userAgent =
+    L"PFL-Preview/" +
+    QString::fromUtf8(PLUGIN_VERSION).toStdWString();
+
         HINTERNET session = WinHttpOpen(
-            L"PFL-Preview/1.3.0",
+            userAgent.c_str(),
             WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY,
             WINHTTP_NO_PROXY_NAME,
             WINHTTP_NO_PROXY_BYPASS,
@@ -1572,13 +1577,15 @@ void PFLDock::CheckForUpdates()
             return;
         }
 
-        const wchar_t *headers =
-            L"Accept: application/vnd.github+json\r\n"
-            L"User-Agent: PFL-Preview/1.3.0\r\n";
+std::wstring headers =
+    L"Accept: application/vnd.github+json\r\n"
+    L"User-Agent: PFL-Preview/" +
+    QString::fromUtf8(PLUGIN_VERSION).toStdWString() +
+    L"\r\n";
 
         BOOL sent = WinHttpSendRequest(
             request,
-            headers,
+            headers.c_str(),
             (DWORD)-1L,
             WINHTTP_NO_REQUEST_DATA,
             0,
